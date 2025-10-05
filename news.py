@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = "6f7b11894bb9718bd0b40d782e846d1f"  # your Mediastack API key
+API_KEY = "635a425d81a8d762229cf94dab65f8d7"  # your Mediastack API key
 
 # Countries to show
 COUNTRIES = {
@@ -79,3 +79,4 @@ def community():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
